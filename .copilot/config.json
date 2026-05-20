@@ -1,0 +1,9 @@
+// User settings belong in settings.json.
+// This file is managed automatically.
+{
+  "firstLaunchAt": "2026-04-15T11:21:41.798Z",
+  "telemetry": {
+    "enabled": false
+  },
+  "trustedFolders": []
+}

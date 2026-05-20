@@ -1,0 +1,6 @@
+command-history-state.json
+ide/
+logs/
+restart/
+session-state/
+session-store.db

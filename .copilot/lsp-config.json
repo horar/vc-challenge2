@@ -1,0 +1,37 @@
+{
+  "lspServers": {
+    "python": {
+      "command": "pyright-langserver",
+      "args": ["--stdio"],
+      "fileExtensions": {
+        ".py": "python"
+      }
+    },
+    "markdown": {
+      "command": "vscode-markdown-languageserver",
+      "args": ["--stdio"],
+      "fileExtensions": {
+        ".md": "markdown"
+      }
+    },
+    "yaml": {
+      "command": "yaml-language-server",
+      "args": ["--stdio"],
+      "fileExtensions": {
+        ".yaml": "yaml",
+        ".yml": "yaml"
+      },
+      "settings": {
+        "yaml": {
+          "schemas": {
+            "kubernetes": "/**/*.yaml"
+          },
+          "validate": true,
+          "completion": true,
+          "hover": true
+        }
+      },
+      "installHint": "npm install -g yaml-language-server"
+    }
+  }
+}
